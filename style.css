@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(49, 47, 47);
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: rgb(247, 83, 206);
+}
+
+#apresentacao {
+    color: rgb(20, 206, 144);
+}
+
+#hobbies{
+    color: blueviolet;
+}
+
+#apaixonada{
+    color: rgb(173, 50, 204);
+    font-style: italic;
+}
+a:-webkit-any-link {
+    color: rgb(20, 200, 206);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.qualidade{
+    color: cornflowerblue;
+}
+
+#qualidades{
+    color: cornflowerblue;
+}
