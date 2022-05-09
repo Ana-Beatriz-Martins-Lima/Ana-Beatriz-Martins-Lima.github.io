@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(49, 47, 47);
+    background-image: linear-gradient(to bottom left,#B8016F, #7A034A,#640260, #7A034A , #640260, rgb(49, 47, 47))  ;
 }
 
 h1 {
@@ -13,11 +13,11 @@ h1 {
 }
 
 #hobbies{
-    color: blueviolet;
+    color: rgb(211, 43, 226);
 }
 
 #apaixonada{
-    color: rgb(173, 50, 204);
+    color: rgb(204, 50, 140);
     font-style: italic;
 }
 a:-webkit-any-link {
