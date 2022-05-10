@@ -1,24 +1,44 @@
 body{
-    background-image: linear-gradient(to bottom left,#B8016F, #7A034A,#640260, #7A034A , #640260, rgb(49, 47, 47))  ;
+    background-image: linear-gradient(to bottom left, #D1078B, #B8016F,#960167, #7A034A, #7A034A ,#640260, #640260, rgb(49, 47, 47))  ;
+background-size: 100%;
+
 }
 
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     color: rgb(247, 83, 206);
+    text-align: center;
+    font-size: 70px;
+}
+
+.primeiradiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#biafoto{
+  
 }
 
 #apresentacao {
     color: rgb(20, 206, 144);
+    margin: 0;
+    font-size: 30px;
+    ;
 }
 
 #hobbies{
-    color: rgb(211, 43, 226);
+    color: rgb(43, 189, 226);
+    font-size: 30px;
 }
 
 #apaixonada{
-    color: rgb(204, 50, 140);
+    color: rgb(50, 204, 191);
     font-style: italic;
+    font-size: 20px;
 }
 a:-webkit-any-link {
     color: rgb(20, 200, 206);
@@ -27,9 +47,15 @@ a:-webkit-any-link {
 }
 
 .qualidade{
-    color: cornflowerblue;
+    color: rgb(100, 210, 237);
+    font-size: 20px;
 }
 
 #qualidades{
-    color: cornflowerblue;
+    color: rgb(100, 175, 237);
+    font-size: 30px;
+}
+
+.quadrado{
+    width: 200px;
 }
