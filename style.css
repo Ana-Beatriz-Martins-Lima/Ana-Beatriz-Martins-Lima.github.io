@@ -1,7 +1,20 @@
 body{
-    background-image: linear-gradient(to bottom left, #D1078B, #B8016F,#960167, #7A034A, #7A034A ,#640260, #640260, rgb(49, 47, 47))  ;
-background-size: 100%;
+background-image: linear-gradient( #1a1d29, #1a1d29, #0f1d57
+     ,#122b88, #4483a6 );
+background-size: auto;
+background-repeat: no-repeat;
 
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #333e6c25 ;
+  align-items: center;
+  font-size: 25px;
 }
 
 h1 {
@@ -9,27 +22,95 @@ h1 {
     font-style: italic;
     color: rgb(247, 83, 206);
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 7px ;
+    margin-top: 4px ;
 }
-
-.primeiradiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 
 #biafoto{
-  
+  border-radius: 100% ;
+  width: 250px;
+  margin-bottom: 30px;
 }
 
-#apresentacao {
+main {
+ display: flex ;
+ align-items: center;
+ flex-direction:column ;
+}
+
+.tecnologias {
     color: rgb(20, 206, 144);
     margin: 0;
     font-size: 30px;
-    ;
+    display: flex;
+    width: 830px;
+    height: 355px;
 }
 
+#developer{
+    color: rgb(20, 206, 144);
+    font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a:-webkit-any-link {
+    color: rgb(20, 200, 206);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.qualidade{
+    color: rgb(100, 175, 237);
+    font-size: 22px;
+    width: 200px;
+    height: 200px;
+}
+
+#tecnologia{
+  color: rgb(100, 175, 237);
+  font-size: 25px;
+  width: 220px;
+  height: 250px; 
+  margin: 0; 
+}
+
+.primeiradiv{
+  display: flex;
+  margin-right: 70px;
+}
+
+#tec{
+  margin-left: 130px;
+}
+
+footer{
+    display: flex;
+  width: 300px;
+  height: 100px;
+  align-items: center;
+  margin-left: 41%;
+  margin-top: 34px;
+}
+
+#github{
+    border-radius: 100%;
+    width: 120px;
+}
+
+#face{
+    width: 90px;
+}
+
+#linke{
+    width: 70px;
+    margin-left: 10px;
+}
+
+/* curiosidades */
 #hobbies{
     color: rgb(43, 189, 226);
     font-size: 30px;
@@ -40,22 +121,5 @@ h1 {
     font-style: italic;
     font-size: 20px;
 }
-a:-webkit-any-link {
-    color: rgb(20, 200, 206);
-    cursor: pointer;
-    text-decoration: underline;
-}
+/* projetos */
 
-.qualidade{
-    color: rgb(100, 210, 237);
-    font-size: 20px;
-}
-
-#qualidades{
-    color: rgb(100, 175, 237);
-    font-size: 30px;
-}
-
-.quadrado{
-    width: 200px;
-}
